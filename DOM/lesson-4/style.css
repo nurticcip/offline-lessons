@@ -1,0 +1,58 @@
+*{
+    font-family: sans-serif;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.addlist{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: #38d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.addlist input{
+    padding: 10px 30px;
+    border: 1px solid skyblue;
+    outline: none;
+    border-radius: 12px;
+}
+
+.addlist button{
+    padding: 8px 30px;
+    background: transparent;
+    color: rgb(55, 14, 14);
+    border: 1px solid pink;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: .6s;
+}
+.errorword{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: rgb(228, 53, 53);
+}
+.addlist button:hover{
+    background: rgb(198, 164, 170);
+    color: aliceblue;
+}
+
+.newlist{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: #28d3c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
